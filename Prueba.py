@@ -1,1 +1,1 @@
-print ("Este es un archivo de prueba para el proyecto la Rockola.com")
+print ("Este es un archivo de prueba para el proyecto la Rockola.com ")
