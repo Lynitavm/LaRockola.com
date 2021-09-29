@@ -44,7 +44,6 @@
         case "listaCanciones":
             System.out.println("Lista Canciones"); 
             List<Cancion> listaCanciones = c.listarCanciones();
-            c.setIdCancion(Integer.parseInt(request.getParameter("idCancion")));
             if(listaCanciones.isEmpty()){
                 respuesta += "\"" + proceso + "\": false,\"Contactos\":[]";
             }else{

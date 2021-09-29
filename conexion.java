@@ -23,7 +23,7 @@ public class Conexion {
         db = "larockola";
         url = "jdbc:mysql://" + host + "/" + db;
         username = "root";
-        password = "V5j29s1e29s14";
+        password = "";
         
         try{
             Class.forName(DB_driver);
