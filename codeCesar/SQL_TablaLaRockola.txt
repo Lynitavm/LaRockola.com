@@ -1,0 +1,7 @@
+CREATE TABLE `larockola`.`cancion` (
+  `idcancion` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(100) NOT NULL,
+  `artista` VARCHAR(100) NOT NULL,
+  `genero` VARCHAR(100) NOT NULL,
+  `link` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`idcancion`));
